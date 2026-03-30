@@ -1,0 +1,146 @@
+.event-details-container {
+  margin-top: 80px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff7f5;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.event-details-container h2 {
+  color: #ff6f61;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.event-description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.event-meta p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.event-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6f61, #ff9966);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: #ff856f;
+}
+
+/* Event Lists */
+.events-list-container {
+  margin-top: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.events-list-container h2 {
+  color: #ff6f61;
+  margin-bottom: 2rem;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.event-card {
+  background: #fff7f5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.event-card h3 {
+  color: #ff6f61;
+  margin-bottom: 0.5rem;
+}
+
+.event-card p {
+  margin: 0.3rem 0;
+}
+
+.event-actions {
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6f61, #ff9966);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: #ff856f;
+}
+/* my tickets */
+.tickets-container {
+  margin-top: 80px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tickets-container h2 {
+  color: #ff6f61;
+  margin-bottom: 2rem;
+}
+
+.tickets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.ticket-card {
+  background: #fff7f5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.ticket-card h3 {
+  color: #ff6f61;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-card p {
+  margin: 0.3rem 0;
+}

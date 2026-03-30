@@ -1,0 +1,138 @@
+.home-container {
+    margin-top: 70px; 
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #ff6f61, #ff9966);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 0 0 40px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn-primary {
+    background: white;
+    color: #ff6f61;
+}
+
+.btn-primary:hover {
+    background: #ffe082;
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: #333;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #555;
+    transform: scale(1.05);
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 2rem;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    padding: 2rem;
+    width: 250px;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Testimonials */
+.testimonials {
+    background: #fff7f5;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #ff6f61;
+    margin-bottom: 2rem;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 1.5rem;
+    width: 280px;
+    font-style: italic;
+}
+
+/* Footer */
+.footer {
+    background: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* chatpage.js */
+.chat-page-container {
+  margin-top: 60px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.chat-page-container h2 {
+  color: #ff6f61;
+  margin-bottom: 2rem;
+}
+
+.chat-page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}

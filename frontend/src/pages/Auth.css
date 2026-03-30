@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    min-height: 600px;     
+    padding: 40px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #fffaf0, #fff3e0);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.auth-title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.auth-input, .auth-select {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6f61;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.auth-button:hover {
+    background: #e85c50;
+}
+
+.auth-link {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+.auth-link a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: 500;
+}
+.auth-link a:hover {
+    text-decoration: underline;
+}
+/* create events css */
+.create-event-container {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #dfcac6;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.create-event-container h2 {
+    color: #ff6f61;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.create-event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.create-event-form input,
+.create-event-form textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.create-event-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.create-event-form button {
+    background: linear-gradient(135deg, #ff6f61, #ff9966);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.create-event-form button:hover {
+    transform: scale(1.05);
+    background: #ff856f;
+}
+
+.access-denied {
+    margin-top: 100px;
+    text-align: center;
+    color: #ff6f61;
+    font-size: 1.2rem;
+}
