@@ -46,7 +46,7 @@ export default function Home() {
 
             {/* Footer */}
             <footer className="footer">
-                <p>© {new Date().getFullYear()} EventHub. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} EventHub. All rights reserved.</p>
             </footer>
         </div>
     );
