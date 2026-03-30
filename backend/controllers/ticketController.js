@@ -15,6 +15,18 @@ export const bookTicket = async (req, res) => {
 };
 
 export const getMyTickets = async (req, res) => {
-    const tickets = await Ticket.findAll({ where: { user_id: req.user.id }, include: ['event'] });
-    res.json(tickets);
+    try {
+        if (!req.user || !req.user.id) {
+        return res.status(400).json({ message: "User ID missing" });
+        }
+
+        const tickets = await Ticket.findAll({
+        where: { user_id: req.user.id },
+        include: ["event"]
+        });
+
+        return res.json(tickets);
+    } catch (err) {
+        return res.status(500).json({ error: err.message });
+    }
 };
